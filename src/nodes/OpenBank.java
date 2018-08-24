@@ -24,4 +24,9 @@ public class OpenBank extends Task {
         Time.sleepUntil(Bank::isOpen, Utilities.GENERIC_SLEEP);
         return Utilities.GENERIC_SLEEP;
     }
+
+    @Override
+    public String toString() {
+        return "Opening bank";
+    }
 }

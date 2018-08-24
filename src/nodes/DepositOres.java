@@ -20,7 +20,13 @@ public class DepositOres extends Task {
 
     @Override
     public int execute() {
-        Bank.depositAllExcept(collectiveRequirement.getOreNames().toArray(new String[collectiveRequirement.getUniqueOreCount()]));
+        final String[] oresToKeep = collectiveRequirement.getOreNames().toArray(new String[collectiveRequirement.getUniqueOreCount()]);
+        Bank.depositAllExcept(oresToKeep);
         return Utilities.GENERIC_SLEEP;
+    }
+
+    @Override
+    public String toString() {
+        return "Depositing ores";
     }
 }

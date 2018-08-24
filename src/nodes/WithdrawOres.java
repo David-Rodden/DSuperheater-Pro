@@ -34,4 +34,9 @@ public class WithdrawOres extends org.rspeer.script.task.Task {
         }
         return Utilities.GENERIC_SLEEP;
     }
+
+    @Override
+    public String toString() {
+        return "Withdrawing ores from bank";
+    }
 }

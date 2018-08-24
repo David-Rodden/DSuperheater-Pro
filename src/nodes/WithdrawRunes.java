@@ -24,4 +24,9 @@ public class WithdrawRunes extends Task {
         // get fire & nature runes from bank
         return 0;
     }
+
+    @Override
+    public String toString() {
+        return "Withdrawing runes from bank";
+    }
 }

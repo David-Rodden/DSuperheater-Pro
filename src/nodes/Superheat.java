@@ -1,6 +1,6 @@
 package nodes;
 
-import Utils.CollectiveOreRequirement;
+import utils.CollectiveOreRequirement;
 import org.rspeer.runetek.adapter.component.Item;
 import org.rspeer.runetek.adapter.scene.Player;
 import org.rspeer.runetek.api.commons.Time;
@@ -9,7 +9,6 @@ import org.rspeer.runetek.api.component.tab.Magic;
 import org.rspeer.runetek.api.component.tab.Spell;
 import org.rspeer.runetek.api.scene.Players;
 import org.rspeer.script.task.Task;
-import org.rspeer.ui.Log;
 
 public class Superheat extends Task {
     private final CollectiveOreRequirement collectiveOreRequirement;

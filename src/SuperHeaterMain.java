@@ -1,5 +1,5 @@
-import Utils.CollectiveOreRequirement;
-import Utils.OreRequirement;
+import utils.CollectiveOreRequirement;
+import utils.OreRequirement;
 import nodes.*;
 import org.rspeer.runetek.event.listeners.RenderListener;
 import org.rspeer.runetek.event.types.RenderEvent;

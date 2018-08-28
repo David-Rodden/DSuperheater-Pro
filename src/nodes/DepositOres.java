@@ -1,7 +1,7 @@
 package nodes;
 
-import Utils.CollectiveOreRequirement;
-import Utils.Utilities;
+import utils.CollectiveOreRequirement;
+import utils.Utilities;
 import org.rspeer.runetek.api.component.Bank;
 import org.rspeer.runetek.api.component.tab.Inventory;
 import org.rspeer.script.task.Task;

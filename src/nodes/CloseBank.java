@@ -1,6 +1,6 @@
 package nodes;
 
-import Utils.CollectiveOreRequirement;
+import utils.CollectiveOreRequirement;
 import org.rspeer.script.task.Task;
 import org.rspeer.ui.Log;
 

@@ -19,9 +19,7 @@ public class SuperHeaterMain extends TaskScript implements RenderListener {
     @Override
     public void onStart() {
         collectiveRequirement = new CollectiveOreRequirement(new OreRequirement("Iron ore", 1), new OreRequirement("Coal", 2));
-        submit(new Superheat(collectiveRequirement), new OpenBank(collectiveRequirement), new DepositOres(collectiveRequirement), new WithdrawOres(collectiveRequirement), new CloseBank(collectiveRequirement));
-        Log.info("Added all tasks");
-
+        submit(new Superheat(collectiveRequirement), new OpenBank(collectiveRequirement), new DepositBars(collectiveRequirement), new WithdrawOres(collectiveRequirement), new CloseBank(collectiveRequirement));
     }
 
     @Override
